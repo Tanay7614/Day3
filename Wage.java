@@ -5,7 +5,7 @@ public class Wage {
 		  final int Emp_Check=1;
 		  double empcheck=Math.floor(Math.random()*10)%2;
 		  if(Emp_Check==empcheck){
-		    System.out.println("employyed is present");
+		    System.out.println("Employyed is present");
 		 }
 		else{
 		  System.out.println("Employyed is absent");
