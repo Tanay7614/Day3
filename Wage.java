@@ -8,7 +8,7 @@ public class Wage {
 		    System.out.println("employyed is present");
 		 }
 		else{
-		  System.out.println("employyed is absent");
+		  System.out.println("Employyed is absent");
 		}
 		}
 		}
