@@ -1,18 +1,36 @@
-package Uc3;
+package Uc6;
 
 public class MonthCon {
 	public static void main(String[] args)
 	{
-	  int perhour_emp_wage=20;
-	  int working_hour=5;
-	  int p=working_hour;
-	  int total_days=20;
-	  while (p<=working_hour*total_days)
+         int parttime_hour=1;
+ 	  int full_time=2;
+	  int wage_perhour=20;
+          int emp_wage=0
+          int days=0;		  
+	  int total_working_days=20;
+	  while (days<=total_working_days)
 	{
+		 int w=(int)Math.floor(Math.random()*10)%3;
+                 switch (w) {
+			case parttime_hour: 
+				emp_hrs=4;
+				break;
+		
+      		       case full_time:
+                		emp_hrs=8;
+            		        break;
 
-	    int wage = p*perhour_emp_wage;
-	    p++;
+    	               default:
+          		        System.out.println("Inavalid choice");
+ 			  }
+		  emp_wage=emp_wage+emp_hrs*wage_perhour;
+		  days++;
 	}
-	  System.out.println("Tatal wage of montnth=" +wage);
+  		  System.out.println("Tatal wage of montnth=" + emp_wage);
+
+	  
 	}
+	
+	
 }
