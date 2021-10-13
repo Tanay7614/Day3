@@ -13,18 +13,14 @@ public class Switch {
 		switch ((int)w) {
 		  case 1:
 		       int emp_wage=parttime_hour*wage_perhour;
-		        System.out.println("Part time Employyed wage=" + emp_wage);
-		        break;
-
-		//else
-		//{
+		       System.out.println("Part time Employyed wage=" + emp_wage);
+		       break:
 		  case 2:
-		    emp_wage=full_timehour*wage_perhour;
+		      emp_wage=full_timehour*wage_perhour;
 		      System.out.println("full time Employyed wage=" + emp_wage);
 		      break;
-
-		  default:
-		       System.out.println("Inavalid choice");
+                  default:
+		      System.out.println("Inavalid choice");
 		   }
-		}
+	}
 }
