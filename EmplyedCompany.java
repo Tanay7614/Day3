@@ -56,8 +56,8 @@ public class EmplyedCompany {
 		EmplyedCompany dmart=new EmplyedCompany("Demart",20,4,10);
 		EmplyedCompany reliance=new EmplyedCompany("Reliance",20,4,10);
 		dmart.calculateWage();
-	//	System.out.println(dmart);
+        	System.out.println(dmart);
 		reliance.calculateWage();
-		//System.out.println(reliance);
+		System.out.println(reliance);
 }
 }
